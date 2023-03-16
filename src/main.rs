@@ -9,12 +9,14 @@ use serde::{Deserialize, Serialize};
 // }
 // curl "http://localhost:8000/"  -> {"greet":"Hello, World!"}
 
+// Deserializeをderive（導く）する
 #[derive(Deserialize)]
 struct HelloQuery {
     name: String,
     age: u32,
 }
 
+// Serializeをderive（導く）する
 #[derive(Serialize)]
 struct HelloResponse {
     greet: String,
