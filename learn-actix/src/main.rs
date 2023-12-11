@@ -13,7 +13,7 @@ use serde::{Deserialize, Serialize};
 #[derive(Deserialize)]
 struct HelloQuery {
     name: String,
-    age: u32,
+    age: String,
 }
 
 // Serializeをderive（導く）する
