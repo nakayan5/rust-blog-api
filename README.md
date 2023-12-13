@@ -7,3 +7,9 @@
 ## cargo intall
 
 https://doc.rust-jp.rs/book-ja/ch14-04-installing-binaries.html
+
+## MEMO
+
+```Rust
+cargo make --env-file .env run
+```

@@ -3,4 +3,4 @@ appengine-generated/
 
 target
 
-.env
+*/.env
